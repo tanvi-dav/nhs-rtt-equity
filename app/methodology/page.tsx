@@ -6,8 +6,7 @@ export default function MethodologyPage() {
             Methodology
           </h1>
           <p className="mt-4 text-lg text-slate-600 font-medium">
-            Data sources, analytical approach, and methodological caveats for the 
-            NHS RTT Equity Analysis dashboard.
+            Data sources for the NHS RTT Equity Analysis dashboard.
           </p>
         </header>
         

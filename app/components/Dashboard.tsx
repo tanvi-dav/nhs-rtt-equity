@@ -546,8 +546,7 @@ const postcodeLotteryData = useMemo(() => {
     NHS Digital Organisation Data Service. All sources are published under the Open Government Licence v3.0.
   </p>
   <p>
-    For full data sources, schema documentation, methodological caveats, and references, 
-    see the{' '}
+    For full data sources see the{' '}
     <a href="/methodology" className="text-blue-700 hover:underline font-medium">
       methodology page
     </a>.
