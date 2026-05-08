@@ -506,7 +506,7 @@ const postcodeLotteryData = useMemo(() => {
                 <SortableHeader label="Median Wait" column="avg_median_wait" current={sortBy} direction={sortDir} onClick={handleSort} align="right" />
                 <SortableHeader label="92nd %ile" column="avg_92pct_wait" current={sortBy} direction={sortDir} onClick={handleSort} align="right" />
                 <SortableHeader label="Within 18wk" column="pct_within_18_weeks" current={sortBy} direction={sortDir} onClick={handleSort} align="right" />
-                <SortableHeader label="Volume" column="total_waiting" current={sortBy} direction={sortDir} onClick={handleSort} align="right" />
+                <SortableHeader label="Patient Volume" column="total_waiting" current={sortBy} direction={sortDir} onClick={handleSort} align="right" />
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100 text-slate-700">

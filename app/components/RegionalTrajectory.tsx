@@ -51,17 +51,17 @@ export default function RegionalTrajectory({ data, selectedRegions, onRegionClic
               style={{ fontSize: '12px' }}
             />
             <YAxis 
-  stroke="#64748b" 
-  style={{ fontSize: '12px' }}
-  domain={['dataMin - 1', 'dataMax + 1']}
-  tickFormatter={(v) => `${v}w`}
-  label={{ 
-    value: '92nd %ile wait (weeks)', 
-    angle: -90, 
-    position: 'insideLeft', 
-    style: { fontSize: '11px', fill: '#475569' } 
-  }}
-/>
+              stroke="#64748b" 
+              style={{ fontSize: '12px' }}
+              domain={['auto', 'auto']} // Adjusted to let Recharts calculate the range dynamically
+              tickFormatter={(v) => `${v.toFixed(1)}w`} // Ensures consistent formatting
+              label={{ 
+                value: '92nd %ile wait (weeks)', 
+                angle: -90, 
+                position: 'insideLeft', 
+                style: { fontSize: '11px', fill: '#475569' } 
+              }}
+            />
             <Tooltip 
               contentStyle={{ borderRadius: '8px', border: '1px solid #e5e7eb', fontSize: '12px' }}
               formatter={(v: any) => [`${Number(v).toFixed(1)}w`]}
