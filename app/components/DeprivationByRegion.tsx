@@ -144,7 +144,7 @@ export default function DeprivationByRegion({ data, selectedRegions, onRegionCli
 
       <div className="mt-4 text-xs text-slate-500 italic leading-relaxed">
         <strong className="text-slate-700 not-italic">Reading the chart:</strong> A 
-        negative slope (m &gt; 0) means more deprived areas wait longer.
+        negative slope (m &lt; 0) means more deprived areas wait longer.
       </div>
     </div>
   )

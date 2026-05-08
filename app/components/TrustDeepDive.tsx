@@ -36,13 +36,11 @@ type Props = {
   // Filter trusts by search
   const filteredTrusts = useMemo(() => {
     const term = searchTerm.toLowerCase().trim()
-    if (!term) return trusts.slice(0, 10) // show top 10 if no search
-    return trusts
-      .filter(t => 
-        t.trust_name.toLowerCase().includes(term) || 
-        t.trust_code.toLowerCase().includes(term)
-      )
-      .slice(0, 20)
+    if (!term) return trusts // show all if no search
+    return trusts.filter(t => 
+      t.trust_name.toLowerCase().includes(term) || 
+      t.trust_code.toLowerCase().includes(term)
+    )
   }, [trusts, searchTerm])
   
   // Compute deep-dive data when a trust is selected
