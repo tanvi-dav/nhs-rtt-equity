@@ -9,7 +9,6 @@ import TrustDeepDive from './TrustDeepDive'
 import RegionalTrajectory from './RegionalTrajectory'
 import TrustOutliers from './TrustOutliers'
 import PostcodeLottery from './PostcodeLottery'
-import InvestmentPriorities from './InvestmentProperties'
 
 type DashboardProps = {
   snapshots: any[]
@@ -477,11 +476,6 @@ const postcodeLotteryData = useMemo(() => {
 
     <PostcodeLottery 
         data={postcodeLotteryData}
-    />
-
-    <InvestmentPriorities 
-        data={investmentData}
-        onTrustClick={handleTrustClick}
     />
       
       {/* Slope graph (will be replaced by Q6 in a later chunk) */}
