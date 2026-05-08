@@ -92,8 +92,7 @@ export default function RegionalTrajectory({ data, selectedRegions, onRegionClic
       <div className="mt-4 text-xs text-slate-500 italic leading-relaxed">
         <strong className="text-slate-700 not-italic">Reading the chart:</strong> A 
         downward-sloping line indicates improving performance (shorter waits); upward 
-        indicates deterioration. The 3-month observation window provides directional 
-        signal; longer time-series would be required for trajectory significance testing.
+        indicates deterioration.
       </div>
     </div>
   )
