@@ -376,11 +376,11 @@ const postcodeLotteryData = useMemo(() => {
     <div className="space-y-8 pb-20">
       <header>
   <h1 className="text-5xl font-white text-slate-900 tracking-tight">
-    NHS Referrel To Treatment Waiting Times
+    NHS Referral To Treatment Waiting Times
   </h1>
   <p className="mt-4 text-xl text-slate-600 font-medium max-w-3xl">
-    Cross-sectional analysis of England's NHS elective waiting list, examining 
-    variation by specialty, region, and area-level deprivation across {trusts.length} acute trusts.
+    Analysis of England's NHS elective waiting list, examining 
+    variation by specialty, region and area-level deprivation across {trusts.length} acute trusts.
   </p>
   <div className="mt-6 flex flex-wrap items-center gap-6 text-sm text-slate-500">
     <div className="flex items-center gap-2">
@@ -551,9 +551,6 @@ const postcodeLotteryData = useMemo(() => {
     <a href="/methodology" className="text-blue-700 hover:underline font-medium">
       methodology page
     </a>.
-  </p>
-  <p className="text-xs text-slate-400">
-    QMUL IOT552U Business Organisation and Decision Making · 2026
   </p>
 </footer>
     </div>
