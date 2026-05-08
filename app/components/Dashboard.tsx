@@ -455,9 +455,9 @@ const postcodeLotteryData = useMemo(() => {
             ? (kpiStats.total_waiting / 1_000_000).toFixed(2) + 'M' 
             : (kpiStats.total_waiting / 1_000).toFixed(0) + 'K'} 
           subtitle={selectedSpecialtyName || formatMonth(selectedMonth)} accent />
-        <KPICard label="Within 18 Weeks" value={kpiStats.pct_within_18_weeks.toFixed(1) + '%'} subtitle="target: 92%" />
-        <KPICard label="52-Week Breach" value={kpiStats.breach_52_weeks.toLocaleString()} subtitle="patients" />
-        <KPICard label="78-Week Breach" value={kpiStats.breach_78_weeks.toLocaleString()} subtitle="patients" />
+        <KPICard label="% of Patients Treated Within 18 Weeks" value={kpiStats.pct_within_18_weeks.toFixed(1) + '%'} subtitle="target: 92%" />
+        <KPICard label="Number of Patients who Breached 52-Week Waiting Time" value={kpiStats.breach_52_weeks.toLocaleString()} subtitle="patients" />
+        <KPICard label="Number of Patients who Breached 78-Week Waiting Time" value={kpiStats.breach_78_weeks.toLocaleString()} subtitle="patients" />
       </div>
       
       {/* Q2: Specialty (existing chart, click-to-filter wired in next chunk) */}

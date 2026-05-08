@@ -16,21 +16,21 @@ export default function MethodologyPage() {
           <div className="space-y-4">
             <SourceCard
               title="NHS England Referral to Treatment Statistics"
-              description="Monthly provider-level performance data for consultant-led elective care, including total waiting list, percentage within 18 weeks, and breach counts by trust and specialty."
+              description="Monthly provider-level performance data for consultant-led elective care, including total waiting list and the percentage of patients who have been treated within 18 weeks as well as the number of breaches by trust and specialty."
               access="December 2025, January 2026, and February 2026 monthly releases."
               url="https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/"
               license="Open Government Licence v3.0"
             />
             <SourceCard
               title="English Indices of Deprivation 2025"
-              description="Lower-layer Super Output Area (LSOA) deprivation rankings and deciles based on seven domains including income, employment, health, education, crime, housing barriers, and living environment."
+              description="Lower-layer Super Output Area (LSOA) deprivation rankings and deciles based on seven domains including income, employment, health, education, crime, housing barriers and living environment."
               access="File 1 (IMD rank and decile), published November 2025 by Ministry of Housing, Communities and Local Government."
               url="https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
               license="Open Government Licence v3.0"
             />
             <SourceCard
               title="NHS Digital Organisation Data Service"
-              description="Authoritative register of NHS trust codes, names, and postcodes. Used to identify active acute trusts and derive regional mapping."
+              description="Authoritative register of NHS trust codes, names and postcodes. Used to identify active trusts and derive regional mapping."
               access="etr.csv current as of April 2026."
               url="https://www.odsdatasearchandexport.nhs.uk/"
               license="Open Government Licence v3.0"
