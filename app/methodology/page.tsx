@@ -2,7 +2,7 @@ export default function MethodologyPage() {
     return (
       <div className="space-y-12 pb-20 max-w-4xl">
         <header>
-          <h1 className="text-5xl font-black text-slate-900 tracking-tight">
+          <h1 className="text-5xl font-black text-white-900 tracking-tight">
             Methodology
           </h1>
           <p className="mt-4 text-lg text-slate-600 font-medium">
@@ -13,7 +13,7 @@ export default function MethodologyPage() {
         
         {/* Section: Data Sources */}
         <section>
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Data sources</h2>
+          <h2 className="text-2xl font-bold text-white-900 mb-4">Data sources</h2>
           <div className="space-y-4">
             <SourceCard
               title="NHS England Referral to Treatment Statistics"
