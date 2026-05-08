@@ -376,7 +376,7 @@ const postcodeLotteryData = useMemo(() => {
     <div className="space-y-8 pb-20">
       <header>
   <h1 className="text-5xl font-white text-slate-900 tracking-tight">
-    NHS Elective Waiting Times: An Equity Audit
+    NHS Referrel To Treatment Waiting Times
   </h1>
   <p className="mt-4 text-xl text-slate-600 font-medium max-w-3xl">
     Cross-sectional analysis of England's NHS elective waiting list, examining 
